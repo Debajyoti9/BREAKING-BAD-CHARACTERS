@@ -1,0 +1,180 @@
+.breakingBad {
+    margin: 3%;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.breakingBad_hamburger_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 25px;
+    width: 50px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.breakingBad_hamburger_icon_1 {
+    height: 2px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25%;
+    background-color: rgb(255, 255, 255);
+    margin: 2px 0px;
+    width: 30px;
+}
+
+
+.breakingBad_hamburger_icon_2 {
+    height: 0.5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25%;
+    background-color: rgb(255, 255, 255);
+    margin: 2px 0px;
+    width: 40px;
+}
+
+.breakingBad_hamburger_icon_3 {
+    height: 0.5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25%;
+    background-color: rgb(255, 255, 255);
+    margin: 2px 0px;
+    width: 22px;
+}
+
+.breakingBad_character_image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 0.9;
+}
+
+.breakingBad_character_buttom {
+    background: #fff;
+    position: relative;
+    height: 120px;
+    transition: 1s;
+    margin-top: -16px;
+    margin-left: -20px;
+}
+
+.breakingBad_character_buttom:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #acacac;
+    border-top: 0;
+    border-right: 0;
+    margin-top: -20px;
+    overflow: visible;
+}
+
+.breakingBad_character_name {
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.breakingBad_character_name_short {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beeLogo {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.breakingBad_character_buttom2 {
+    margin-top: -200px;
+    height: 380px;
+    transition: 1s;
+    opacity: 0.9;
+    overflow: hidden;
+    position: relative;
+}
+
+.underline {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.breakingBad_character_hidden_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.breakingBad_character_hidden_info div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 95%;
+    border-bottom: 1px solid #e9e9e9;
+    word-wrap: break-word;
+}
+
+.breakingBad_character_hidden_info .breakingBad_character_detail {
+    justify-content: center;
+    margin-top: 1rem;
+    border-bottom: none;
+}
+
+.breakingBad_character_detail_btn {
+    padding: 0.3em 1.2em;
+    border: 1px solid #000;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+}
+
+.breakingBad_character_detail_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.bouncy {
+    animation: bouncy 4s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0% {
+        top: 0em;
+    }
+
+    40% {
+        top: 0em;
+    }
+
+    43% {
+        top: -0.9em;
+    }
+
+    46% {
+        top: 0em;
+    }
+
+    48% {
+        top: -0.4em;
+    }
+
+    50% {
+        top: 0em;
+    }
+
+    100% {
+        top: 0em;
+    }
+}
